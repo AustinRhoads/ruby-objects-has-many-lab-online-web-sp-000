@@ -26,7 +26,8 @@ end
 
 def self.song_count
   counter = 0
-Song.all.each {|song| counter += song.artist != nil  }
+Song.all.each {|song| counter += song.artist != nil  } 
+counter
 end
 
 
