@@ -5,6 +5,10 @@ attr_accessor :name
 def initialize (name)
 @name = name
 @@all << self
+end 
+
+def all_artist_songs
+@@all_artist_songs
 end
 
 def add_song(song)
@@ -23,8 +27,7 @@ def songs
 end
 
 def self.song_count
-@@all.each {|artist| @@all_artist_songs << artist.songs }
-@@all_artist_songs.length
+
 end
 
 
