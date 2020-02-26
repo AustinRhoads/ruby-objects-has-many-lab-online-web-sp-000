@@ -27,7 +27,7 @@ def songs
 end
 
 def self.song_count
-
+@@all_artist_songs.length
 end
 
 
