@@ -15,7 +15,7 @@ end
 
 def artist=(artist)
 @artist = artist
-
+Artist.all_artist_songs << self
 end
 
 def artist_name
