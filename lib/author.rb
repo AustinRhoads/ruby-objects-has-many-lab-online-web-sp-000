@@ -27,13 +27,7 @@ Post.all.each {|post| counter << post.author != nil  }
 counter.length
 end
 
-def author_name
-  if self.author != nil
-self.author.name
-  else
-     nil
-  end
-end
+
 
 
 end
