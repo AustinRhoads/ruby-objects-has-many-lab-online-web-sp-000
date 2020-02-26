@@ -6,10 +6,10 @@ attr_accessor :title, :author
 def initialize (title)
 @title = title
 @@all << self
-end 
+end
 
-def all 
+def all
 @@all
-end 
+end
 
 end
