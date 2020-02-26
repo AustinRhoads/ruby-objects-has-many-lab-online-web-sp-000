@@ -25,7 +25,7 @@ def self.post_count
   counter = []
 Post.all.each {|post| counter << post.author != nil  }
 counter.length
-end 
+end
 
 def author_name
   if self.author != nil
