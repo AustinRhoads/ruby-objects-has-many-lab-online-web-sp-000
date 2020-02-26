@@ -13,10 +13,6 @@ def save
 @@all << self
 end
 
-def artist=(artist)
-@artist = artist
-Artist.all_artist_songs << self
-end
 
 def artist_name
 self.artist.name
