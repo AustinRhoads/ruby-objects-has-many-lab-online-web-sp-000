@@ -23,7 +23,7 @@ end
 
 def self.post_count
   counter = []
-Song.all.each {|song| counter << post.author != nil  }
+Post.all.each {|post| counter << post.author != nil  }
 counter.length
 end
 
